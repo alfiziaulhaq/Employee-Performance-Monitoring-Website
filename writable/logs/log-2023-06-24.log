@@ -1,0 +1,627 @@
+CRITICAL - 2023-06-24 04:24:25 --> Undefined variable $value
+in APPPATH\Views\manager\ratings_db.php on line 38.
+ 1 APPPATH\Views\manager\ratings_db.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/ratings_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(280): view('manager/ratings_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_db()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:27:04 --> Undefined variable $employee
+in APPPATH\Views\manager\ratings_db.php on line 45.
+ 1 APPPATH\Views\manager\ratings_db.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/ratings_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(280): view('manager/ratings_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_db()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:27:07 --> Undefined variable $employee
+in APPPATH\Views\manager\ratings_db.php on line 45.
+ 1 APPPATH\Views\manager\ratings_db.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\ratings_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/ratings_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(280): view('manager/ratings_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_db()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:27:54 --> Cannot use object of type stdClass as array
+in APPPATH\Views\manager\ratings_db.php on line 46.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/ratings_db', [], true)
+ 4 APPPATH\Controllers\Manager.php(281): view('manager/ratings_db', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_db()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:27:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\manager\ratings_db.php on line 46.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/ratings_db', [], true)
+ 4 APPPATH\Controllers\Manager.php(281): view('manager/ratings_db', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_db()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:36:02 --> Too few arguments to function App\Controllers\Manager::ratings_filter(), 0 passed in C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Manager.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:37:39 --> Too few arguments to function App\Controllers\Manager::ratings_filter(), 0 passed in C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Manager.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:38:27 --> Too few arguments to function App\Controllers\Manager::ratings_filter(), 0 passed in C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Manager.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 04:38:33 --> Too few arguments to function App\Controllers\Manager::ratings_filter(), 0 passed in C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Manager.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-24 04:40:42 --> mysqli_sql_exception: Column 'users_id' in where clause is ambiguous in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\app\Models\ratings_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\monitoring_1\app\Controllers\Manager.php(293): App\Models\ratings_model->getdatajoin(Array)
+#6 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+#8 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-24 04:40:42 --> Column 'users_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ratings`
+LEFT JOIN `periodic` ON `periodic`.`periodic_id` = `ratings`.`periodic_id`
+LEFT JOIN `employee` ON `employee`.`users_id` = `ratings`.`users_id`
+WHERE `users_id` = \'12\'
+ORDER BY `ratings`.`rating_id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ratings`
+LEFT JOIN `periodic` ON `periodic`.`periodic_id` = `ratings`.`periodic_id`
+LEFT JOIN `employee` ON `employee`.`users_id` = `ratings`.`users_id`
+WHERE `users_id` = \'12\'
+ORDER BY `ratings`.`rating_id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ratings`
+LEFT JOIN `periodic` ON `periodic`.`periodic_id` = `ratings`.`periodic_id`
+LEFT JOIN `employee` ON `employee`.`users_id` = `ratings`.`users_id`
+WHERE `users_id` = \'12\'
+ORDER BY `ratings`.`rating_id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ratings`
+LEFT JOIN `periodic` ON `periodic`.`periodic_id` = `ratings`.`periodic_id`
+LEFT JOIN `employee` ON `employee`.`users_id` = `ratings`.`users_id`
+WHERE `users_id` = :users_id:
+ORDER BY `ratings`.`rating_id` DESC', [...], false)
+ 5 APPPATH\Models\ratings_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Manager.php(293): App\Models\ratings_model->getdatajoin([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->ratings_filter()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:57:42 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:57:44 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:57:46 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:57:53 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:58:42 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:59:37 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 06:59:47 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:00:37 --> Class "App\Filters\managerFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:15:52 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staff/staff_dash', [], true)
+ 6 APPPATH\Controllers\staff.php(7): view('staff/staff_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\staff->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staff))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:16:05 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staff/staff_dash', [], true)
+ 6 APPPATH\Controllers\staff.php(7): view('staff/staff_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\staff->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staff))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:17:45 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:03 --> syntax error, unexpected token "]"
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:05 --> syntax error, unexpected token "]"
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:12 --> syntax error, unexpected token "]"
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:14 --> syntax error, unexpected token "]"
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:19 --> syntax error, unexpected token "]"
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:25:58 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/edit_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(103): view('admin/edit_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->edit_employee('3')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:26:29 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(22): view('admin/admin_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->employee_db()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:26:30 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(22): view('admin/admin_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->employee_db()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:28:05 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(22): view('admin/admin_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->employee_db()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:28:16 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(22): view('admin/admin_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->employee_db()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 07:28:17 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 48.
+ 1 APPPATH\Views\layout\default.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/edit_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(103): view('admin/edit_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->edit_employee('3')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 09:27:48 --> trim(): Argument #1 ($string) must be of type string, array given
+in SYSTEMPATH\Filters\Filters.php on line 532.
+ 1 SYSTEMPATH\Filters\Filters.php(532): trim([...], '/ ')
+ 2 SYSTEMPATH\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', [...])
+ 3 SYSTEMPATH\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(63): CodeIgniter\Filters\Filters->initialize('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 6 SYSTEMPATH\Commands\Utilities\Routes.php(106): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 7 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 8 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 9 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-06-24 09:28:02 --> trim(): Argument #1 ($string) must be of type string, array given
+in SYSTEMPATH\Filters\Filters.php on line 532.
+ 1 SYSTEMPATH\Filters\Filters.php(532): trim([...], '/ ')
+ 2 SYSTEMPATH\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', [...])
+ 3 SYSTEMPATH\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(63): CodeIgniter\Filters\Filters->initialize('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 6 SYSTEMPATH\Commands\Utilities\Routes.php(106): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 7 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 8 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 9 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-06-24 09:30:14 --> trim(): Argument #1 ($string) must be of type string, array given
+in SYSTEMPATH\Filters\Filters.php on line 532.
+ 1 SYSTEMPATH\Filters\Filters.php(532): trim([...], '/ ')
+ 2 SYSTEMPATH\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', [...])
+ 3 SYSTEMPATH\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(63): CodeIgniter\Filters\Filters->initialize('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 6 SYSTEMPATH\Commands\Utilities\Routes.php(106): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 7 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 8 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 9 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-06-24 09:30:46 --> trim(): Argument #1 ($string) must be of type string, array given
+in SYSTEMPATH\Filters\Filters.php on line 532.
+ 1 SYSTEMPATH\Filters\Filters.php(532): trim([...], '/ ')
+ 2 SYSTEMPATH\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', [...])
+ 3 SYSTEMPATH\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(63): CodeIgniter\Filters\Filters->initialize('/')
+ 5 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('/')
+ 6 SYSTEMPATH\Commands\Utilities\Routes.php(106): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', '/')
+ 7 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 8 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('routes', [])
+ 9 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-06-24 09:36:13 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Filters\LoginFilter.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Filters\\LoginFilter.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\LoginFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\LoginFilter')
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('staff', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 10:26:37 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\admin\admin_dash.php on line 29.
+ 1 APPPATH\Views\admin\admin_dash.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 5 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 10:26:39 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\admin\admin_dash.php on line 29.
+ 1 APPPATH\Views\admin\admin_dash.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 5 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 10:30:03 --> Undefined variable $value
+in APPPATH\Views\admin\admin_dash.php on line 30.
+ 1 APPPATH\Views\admin\admin_dash.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\admin_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 5 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 12:43:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Controllers\admin.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 12:45:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Controllers\admin.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 12:57:18 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('manager/ratings_filter', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:16:03 --> Undefined variable $employee
+in APPPATH\Views\manager\manager_dash.php on line 78.
+ 1 APPPATH\Views\manager\manager_dash.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(25): view('manager/manager_dash')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:40:27 --> Undefined variable $active
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $active', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:06 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:08 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:09 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:13 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:14 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:41:20 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:49:32 --> Undefined variable $count
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(28): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:51:23 --> Undefined variable $count
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(29): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-24 23:51:54 --> Array to string conversion
+in APPPATH\Views\manager\manager_dash.php on line 93.
+ 1 APPPATH\Views\manager\manager_dash.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\manager_dash.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/manager_dash', [], true)
+ 5 APPPATH\Controllers\Manager.php(29): view('manager/manager_dash', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')

@@ -1,0 +1,29 @@
+CRITICAL - 2023-06-21 16:15:01 --> Attempt to read property "users_id" on null
+in APPPATH\Controllers\Manager.php on line 163.
+ 1 APPPATH\Controllers\Manager.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "users_id" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->goal_db()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-21 17:28:30 --> Undefined variable $user
+in APPPATH\Views\admin\add_employee.php on line 17.
+ 1 APPPATH\Views\admin\add_employee.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\add_employee.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\admin\\add_employee.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/add_employee', [], true)
+ 5 APPPATH\Controllers\admin.php(30): view('admin/add_employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->add_employee()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-21 17:37:39 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('admin/save_employee', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')

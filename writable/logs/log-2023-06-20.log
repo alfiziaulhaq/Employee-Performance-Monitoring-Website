@@ -1,0 +1,191 @@
+CRITICAL - 2023-06-20 18:49:05 --> Can't use function return value in write context
+in APPPATH\Controllers\auth.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 18:50:24 --> Can't use function return value in write context
+in APPPATH\Controllers\auth.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 18:50:25 --> Can't use function return value in write context
+in APPPATH\Controllers\auth.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 19:03:56 --> Attempt to read property "resultID" on array
+in APPPATH\Controllers\Manager.php on line 102.
+ 1 APPPATH\Controllers\Manager.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resultID" on array', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:06:51 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Manager.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:08:15 --> Invalid file: "manager/edit_goal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/edit_goal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/edit_goal', [], true)
+ 3 APPPATH\Controllers\Manager.php(106): view('manager/edit_goal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:08:18 --> Invalid file: "manager/edit_goal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/edit_goal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/edit_goal', [], true)
+ 3 APPPATH\Controllers\Manager.php(106): view('manager/edit_goal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:15:25 --> Attempt to read property "description_goal" on array
+in APPPATH\Views\manager\edit_goal.php on line 18.
+ 1 APPPATH\Views\manager\edit_goal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "description_goal" on array', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/edit_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(106): view('manager/edit_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:15:30 --> Attempt to read property "description_goal" on array
+in APPPATH\Views\manager\edit_goal.php on line 18.
+ 1 APPPATH\Views\manager\edit_goal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "description_goal" on array', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/edit_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(106): view('manager/edit_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:17:31 --> Attempt to read property "goal_id" on array
+in APPPATH\Views\manager\edit_goal.php on line 14.
+ 1 APPPATH\Views\manager\edit_goal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "goal_id" on array', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\edit_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/edit_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(106): view('manager/edit_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:26:16 --> Call to a member function first() on array
+in APPPATH\Controllers\Manager.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:26:59 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\Manager.php on line 103.
+ 1 APPPATH\Controllers\Manager.php(103): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:27:44 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Manager.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:27:46 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Manager.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:27:48 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Manager.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:28:00 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Manager.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:28:28 --> Undefined property: stdClass::$resultID
+in APPPATH\Controllers\Manager.php on line 103.
+ 1 APPPATH\Controllers\Manager.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$resultID', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:29:10 --> Undefined property: stdClass::$resultID
+in APPPATH\Controllers\Manager.php on line 103.
+ 1 APPPATH\Controllers\Manager.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$resultID', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:29:13 --> Undefined property: stdClass::$resultID
+in APPPATH\Controllers\Manager.php on line 103.
+ 1 APPPATH\Controllers\Manager.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$resultID', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:31:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\goal_model.php on line 33.
+ 1 APPPATH\Controllers\Manager.php(101): App\Models\goal_model->getdatajoinrow([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('10')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:31:47 --> print_r() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Manager.php on line 102.
+ 1 APPPATH\Controllers\Manager.php(102): print_r()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->edit('9')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:38:21 --> Attempt to read property "users_id" on null
+in APPPATH\Controllers\Manager.php on line 163.
+ 1 APPPATH\Controllers\Manager.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "users_id" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->staff_db()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-20 19:38:31 --> Attempt to read property "users_id" on null
+in APPPATH\Controllers\Manager.php on line 163.
+ 1 APPPATH\Controllers\Manager.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "users_id" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->staff_db()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')

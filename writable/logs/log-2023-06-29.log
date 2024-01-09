@@ -1,0 +1,54 @@
+CRITICAL - 2023-06-29 21:27:24 --> Call to a member function get() on array
+in APPPATH\Controllers\admin.php on line 200.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')
+CRITICAL - 2023-06-29 21:27:27 --> Call to a member function get() on array
+in APPPATH\Controllers\admin.php on line 200.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')
+CRITICAL - 2023-06-29 21:28:39 --> Call to a member function get() on array
+in APPPATH\Controllers\admin.php on line 200.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')
+CRITICAL - 2023-06-29 21:32:26 --> Unsupported operand types: string + int
+in APPPATH\Views\admin\admin_periodic.php on line 65.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_periodic', [], true)
+ 4 APPPATH\Controllers\admin.php(202): view('admin/admin_periodic', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')
+CRITICAL - 2023-06-29 21:44:24 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\admin_periodic.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_periodic', [], true)
+ 3 APPPATH\Controllers\admin.php(202): view('admin/admin_periodic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')
+CRITICAL - 2023-06-29 21:45:47 --> Undefined variable $index
+in APPPATH\Views\admin\admin_periodic.php on line 66.
+ 1 APPPATH\Views\admin\admin_periodic.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\xampp\\htdocs\\emp_performance_monitoring_web\\app\\Views\\admin\\admin_periodic.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\app\\Views\\admin\\admin_periodic.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_periodic', [], true)
+ 5 APPPATH\Controllers\admin.php(202): view('admin/admin_periodic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->periodic_db()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\emp_performance_monitoring_web\\public\\index.php')

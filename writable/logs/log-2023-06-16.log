@@ -1,0 +1,155 @@
+ERROR - 2023-06-16 09:50:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`)) in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `em...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\app\Controllers\admin.php(119): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+#6 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-16 09:50:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `employee`
+WHERE `users_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `employee`
+WHERE `users_id` = :users_id:', [...], false)
+ 5 APPPATH\Controllers\admin.php(119): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-16 09:55:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`)) in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `em...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\app\Controllers\admin.php(119): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+#6 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-16 09:55:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `employee`
+WHERE `users_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `employee`
+WHERE `users_id` = :users_id:', [...], false)
+ 5 APPPATH\Controllers\admin.php(119): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-16 10:34:34 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_employee', [], true)
+ 6 APPPATH\Controllers\admin.php(22): view('admin/admin_employee', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->employee_db()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-16 10:34:48 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-16 10:34:49 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-16 10:35:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`)) in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `em...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\app\Controllers\admin.php(115): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+#6 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-16 10:35:49 --> Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `employee`
+WHERE `users_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `employee`
+WHERE `users_id` = :users_id:', [...], false)
+ 5 APPPATH\Controllers\admin.php(115): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-16 23:54:17 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `em...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\app\Controllers\admin.php(115): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+#6 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-16 23:54:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`monitoring`.`employee`, CONSTRAINT `manager_id` FOREIGN KEY (`evaluator_id`) REFERENCES `employee` (`users_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `employee`
+WHERE `users_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `employee`
+WHERE `users_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `employee`
+WHERE `users_id` = :users_id:', [...], false)
+ 5 APPPATH\Controllers\admin.php(115): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->delete_employee('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')

@@ -1,0 +1,707 @@
+CRITICAL - 2023-06-17 05:44:58 --> Undefined variable $employee
+in APPPATH\Views\manager\goal_db.php on line 60.
+ 1 APPPATH\Views\manager\goal_db.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:45:03 --> Undefined variable $employee
+in APPPATH\Views\manager\goal_db.php on line 60.
+ 1 APPPATH\Views\manager\goal_db.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:45:22 --> Undefined variable $employee
+in APPPATH\Views\manager\goal_db.php on line 60.
+ 1 APPPATH\Views\manager\goal_db.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:54:32 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:54:34 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:55:52 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:55:56 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:59:53 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:59:56 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 05:59:56 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:00:01 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:00:01 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:00:12 --> Array to string conversion
+in APPPATH\Views\layout\default.php on line 223.
+ 1 APPPATH\Views\layout\default.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 223)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin_dash', [], true)
+ 6 APPPATH\Controllers\admin.php(9): view('admin/admin_dash')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:01:30 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:09:58 --> Call to undefined function userLogin()
+in APPPATH\Views\layout\default.php on line 223.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(32): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('staff_db')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:47:30 --> Undefined property: App\Controllers\Manager::$db
+in APPPATH\Controllers\Manager.php on line 44.
+ 1 APPPATH\Controllers\Manager.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manager::$db', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 06:49:22 --> Undefined property: App\Controllers\Manager::$db
+in APPPATH\Controllers\Manager.php on line 44.
+ 1 APPPATH\Controllers\Manager.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manager::$db', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:29:41 --> A non-numeric value encountered
+in APPPATH\Views\manager\add_goal.php on line 43.
+ 1 APPPATH\Views\manager\add_goal.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(47): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:29:43 --> A non-numeric value encountered
+in APPPATH\Views\manager\add_goal.php on line 43.
+ 1 APPPATH\Views\manager\add_goal.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(47): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:29:47 --> A non-numeric value encountered
+in APPPATH\Views\manager\add_goal.php on line 43.
+ 1 APPPATH\Views\manager\add_goal.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(47): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:31:17 --> A non-numeric value encountered
+in APPPATH\Views\manager\add_goal.php on line 44.
+ 1 APPPATH\Views\manager\add_goal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(47): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:31:21 --> A non-numeric value encountered
+in APPPATH\Views\manager\add_goal.php on line 44.
+ 1 APPPATH\Views\manager\add_goal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(47): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:47:10 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Manager.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:48:12 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Manager.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:50:57 --> Undefined array key "name_users"
+in APPPATH\Views\manager\add_goal.php on line 57.
+ 1 APPPATH\Views\manager\add_goal.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_users"', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\add_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/add_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(50): view('manager/add_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 09:57:32 --> Undefined property: stdClass::$user_id
+in APPPATH\Views\manager\goal_db.php on line 72.
+ 1 APPPATH\Views\manager\goal_db.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\goal_db.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 5 APPPATH\Controllers\Manager.php(34): view('manager/goal_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('show')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 10:02:38 --> Attempt to read property "name_user" on null
+in APPPATH\Views\layout\default.php on line 227.
+ 1 APPPATH\Views\layout\default.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_user" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php', 227)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/goal_db', [], true)
+ 6 APPPATH\Controllers\Manager.php(34): view('manager/goal_db', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('show')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 10:02:40 --> Attempt to read property "users_id" on null
+in APPPATH\Controllers\Manager.php on line 47.
+ 1 APPPATH\Controllers\Manager.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "users_id" on null', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->new()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 10:29:31 --> Declaration of App\Controllers\Manager::show() must be compatible with CodeIgniter\RESTful\ResourcePresenter::show($id = null)
+in APPPATH\Controllers\Manager.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-17 10:29:33 --> Declaration of App\Controllers\Manager::show() must be compatible with CodeIgniter\RESTful\ResourcePresenter::show($id = null)
+in APPPATH\Controllers\Manager.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-17 10:29:34 --> Declaration of App\Controllers\Manager::show() must be compatible with CodeIgniter\RESTful\ResourcePresenter::show($id = null)
+in APPPATH\Controllers\Manager.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-17 18:51:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH\Controllers\Manager.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->staff_db()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 18:52:27 --> Unsupported operand types: string + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(42): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 18:57:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Manager.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 18:58:30 --> Attempt to read property "num_rows" on bool
+in APPPATH\Controllers\Manager.php on line 40.
+ 1 APPPATH\Controllers\Manager.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "num_rows" on bool', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 18:59:29 --> Unsupported operand types: string + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 18:59:31 --> Unsupported operand types: string + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:00:53 --> Attempt to read property "goal_id" on string
+in APPPATH\Views\manager\staff_goal.php on line 66.
+ 1 APPPATH\Views\manager\staff_goal.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "goal_id" on string', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-17 19:03:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':6:
+ LIMIT 1' at line 3 in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\monitoring_1\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\monitoring_1\app\Controllers\Manager.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+#8 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+#9 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-17 19:03:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':6:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Manager.php(38): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+ERROR - 2023-06-17 19:03:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':6:
+ LIMIT 1' at line 3 in C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monitoring_1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\monitoring_1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\monitoring_1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\monitoring_1\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\monitoring_1\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\monitoring_1\app\Controllers\Manager.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+#8 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+#9 C:\xampp\htdocs\monitoring_1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\monitoring_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\monitoring_1\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-17 19:03:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':6:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `goals`
+WHERE 6 = :6:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Manager.php(38): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:05:12 --> Attempt to read property "goal_id" on string
+in APPPATH\Views\manager\staff_goal.php on line 66.
+ 1 APPPATH\Views\manager\staff_goal.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "goal_id" on string', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:06:31 --> Attempt to read property "goals_id" on string
+in APPPATH\Views\manager\staff_goal.php on line 66.
+ 1 APPPATH\Views\manager\staff_goal.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "goals_id" on string', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:07:08 --> Cannot access offset of type string on string
+in APPPATH\Views\manager\staff_goal.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:07:41 --> Invalid file: "manager/staff_goal/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/staff_goal/.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal/', [], true)
+ 3 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:09:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Manager.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:09:44 --> Unclosed '{' on line 36 does not match ')'
+in APPPATH\Controllers\Manager.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\monitoring_1\\app\\Controllers\\Manager.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Manager')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Manager')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Manager', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:10:13 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:11:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH\Controllers\Manager.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:13:16 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:15:52 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:16:38 --> Undefined variable $goal
+in APPPATH\Views\manager\staff_goal.php on line 60.
+ 1 APPPATH\Views\manager\staff_goal.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $goal', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:17:02 --> Undefined property: stdClass::$goals_id
+in APPPATH\Views\manager\staff_goal.php on line 66.
+ 1 APPPATH\Views\manager\staff_goal.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$goals_id', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:17:57 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:17:59 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:19:20 --> Unsupported operand types: stdClass + int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:20:38 --> Object of class stdClass could not be converted to int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 APPPATH\Views\manager\staff_goal.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Object of class stdClass could not be converted to int', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:20:39 --> Object of class stdClass could not be converted to int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 APPPATH\Views\manager\staff_goal.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Object of class stdClass could not be converted to int', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:21:22 --> Unsupported operand types: array + int
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 4 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:33:14 --> Undefined variable $index
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 APPPATH\Views\manager\staff_goal.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
+CRITICAL - 2023-06-17 19:34:23 --> Undefined variable $index
+in APPPATH\Views\manager\staff_goal.php on line 64.
+ 1 APPPATH\Views\manager\staff_goal.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\monitoring_1\\app\\Views\\manager\\staff_goal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manager/staff_goal', [], true)
+ 5 APPPATH\Controllers\Manager.php(39): view('manager/staff_goal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manager->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\monitoring_1\\public\\index.php')
