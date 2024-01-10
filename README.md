@@ -25,7 +25,7 @@ For more information about this website visit:
 
 - [x] Displays the results of the KPI rating scores of staff and those under them in the period monthly
 
-<video width="800" src="https://github.com/alfiziaulhaq/emp_performance_monitoring_web/assets/90314126 cb483c57-d6d5-46d7-8d16-4e896d5e9444"></video>
+<video width="800" src="https://github.com/alfiziaulhaq/emp_performance_monitoring_web/assets/90314126/cb483c57-d6d5-46d7-8d16-4e896d5e9444"></video>
 
 3. Staff
 
